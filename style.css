@@ -1,0 +1,389 @@
+.btn1 {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+#btn2 {
+    display: none;
+}
+.body
+{
+    background-image: url(images/slider1.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+ 
+}
+#wrapper
+{
+    margin-left: 37%;
+    margin-top: 10%;
+}
+#login-form .submit input[type='submit'],
+#signup-form .submit input[type='submit']
+{
+    width: 280px;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 10px;
+    color:black;  
+}
+#login-form .submit input[type='submit']:hover,
+#signup-form .submit input[type='submit']:hover
+{
+    background-color: rgba(255, 0, 0,0.5);
+    font-size: 15px;
+    color: white;
+}
+#login-form .input input[type="text"], input[type="password"], input[type="email"],#roles,
+#signup-form .input input[type="password"], input[type="email"],#roles,
+#signup-form .input input[type="text"]
+{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: black;
+}
+.loginlogo
+{
+background-color: red;
+border-radius: 10px 10px 10px 10px;
+width: 280px;
+height: 40px;
+text-align: center;
+box-shadow: 5px 10px 18px #D1D0C4;
+padding: 15px 0px 0px 0px;
+color: black;
+}
+#header
+{
+    text-align: center;
+    color: #4A235A;
+}
+.bottom {
+    color: white;
+    font-weight: bold;
+}
+.bottom a {
+    text-decoration: none;
+    z-index: 3;
+    color: Red;
+}
+.input label,#role{
+    color: white;
+    border: none;
+}
+.main ul{
+    background-color:pink;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+li{
+    float: left; 
+}
+li a 
+{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+.dropdown-content a {
+
+    display: block;
+    background-color: grey;
+    text-decoration: none;
+    text-align: center;
+
+}
+li.dropdown {
+    display: inline-block;
+}
+#nav li a:hover, .dropdown:hover .dropbtn {
+    background-color:red ;
+    color: white;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #2E4053;
+    text-decoration: none;
+    display: block;
+}
+header{  
+    background-color: green ;
+    overflow: hidden;
+ 
+}
+header img {
+    width: 130px;
+    height: 100px;
+}
+header #headernav li{
+    float: left;
+    list-style-type: none;
+}
+
+#headernav li a{
+    text-decoration: none;
+    display: block;
+    margin-left: 350px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 50px;
+    color: orange ;
+}
+.admintop {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:grey;
+}
+.adminbody {
+    height: 900px;
+}
+.adminbody img{
+    width: 100%;
+    font-family: Verdana;
+    position: absolute;
+    z-index: -3;
+    opacity: 0.5;
+    height: 900px;
+}
+#AdminWelcomeQuote h1{
+    position: relative;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+#admin-location-form {
+    margin-left: 480px;
+    padding: 10px 50px;
+}
+#admin-location-form .submit input[type='submit']
+{
+    width: 280px;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #DDE71B;
+    border-radius: 10px;
+    color:black;  
+}
+#admin-location-form .submit input[type='submit']:hover
+{
+    background-color:white;
+    font-size: 15px;
+    color: white;
+}
+#admin-location-form .input input[type="text"], input[type="password"], input[type="email"],#roles
+{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: black;
+}
+.location-logo {
+    text-align: center;
+    color: white;
+    font: bold;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+#AdminTable{
+    color: white;
+    border: 2px solid white;
+    border-collapse: collapse;
+    transform: translate(150px,50px);
+}
+#AdminTable th,#AdminTable td {
+    border: 2px solid white;
+    padding: 20px;
+}
+#AdminTable td a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: #F5B041 ;
+    border-radius: 5px;
+    padding: 5px;
+}
+#LocationTable {
+    border: 1px solid white;
+    border-collapse: collapse;
+    transform: translate(60px,2px);
+}
+#LocationTable tr td,th{
+    border: 1px solid white;
+    padding: 15px;
+}
+#LocationTable td a,#update {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: #F5B041 ;
+    border-radius: 5px;
+    padding: 5px;
+}
+#LocationTable th {
+    color: white;
+}
+#LocationTable input[type="text"]
+{
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+#td {
+    color: white;
+}
+.tiles {
+    margin: 0px;
+    padding:10px 20px;
+    display: inline;
+}
+.tiles a{
+    float: left;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 50px 60px;
+    margin-left: 20px;
+    background-color: white;
+    color: Black;
+}
+.tiles a p i{
+   font-size: 50px;
+   text-align: center;
+   color: #6C3483;
+   display: block;
+}
+.maintiles {
+    display: flex;
+    padding: 40px;
+    margin-left: 20px;
+}
+.tiles a:hover {
+    background-color: #566573;
+    color:white;
+    transition: 0.3s;
+}
+.tiles a p i:hover {
+    color: white;
+    transition: 0.3s;
+}
+.tiles span {
+    overflow: hidden;
+    padding-left: 30px;
+    font-size: 20px;
+    color: red;
+}
+#invoice {
+    margin: 20px 50px;
+    background-color: floralwhite;
+}
+#invoice td{
+    padding: 5px 100px;
+}
+#invoice th {
+    border-bottom: 1px solid black;
+}
+.sort {
+    margin-left: 4%;
+    display: inline-block;
+}
+.sortbtn {
+    background-color: #F5B041;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.sortcontent a{
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: none;
+    background-color: honeydew;
+}
+.dropnav {
+    z-index: 3;
+}
+#form {
+    padding: 40px;
+    transform: translate(110%,50%);
+    width: 400px;
+    height: 40vh;
+    background-color: white;
+    border-radius: 10px;
+}
+#errordiv li {
+    color: white;
+}
+.table1,.table2 {
+    color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 400px;
+    margin: 0 30%;
+    line-height: 32px;
+    letter-spacing: 1px;
+    padding: 70px;
+    background-color: #B2BABB ;
+}
+.formid label {
+    font-weight: bold;
+    padding-right: 10px;
+}
+#sel1,#sel2,#sel3 {
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-appearance: none;
+}
+.bookid input[type="submit"] {
+    padding: 10px;
+}
+.bookid #text3 {
+    padding: 10px;
+    border-radius: 10px;
+}
+.bookid label {
+    color: black;
+}
+footer {
+    background-color: #0D0B0B;
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    color: white;
+    padding-top: 15px;
+    margin: 0;
+}
+#foot {
+    font-size: 15px;
+    font-family:sans-serif;
+    color: #D35400 
+}
